@@ -26,6 +26,7 @@ Through a comprehensive audit and optimization phase, the following enhancements
     Create a `.env` file in the root directory:
     ```env
     GOOGLE_API_KEY=your_gemini_api_key
+    SERPER_API_KEY= ""
     ```
 4.  **Database**:
     The system automatically initializes an SQLite database (`analysis_results.db`) on startup to persist results.
